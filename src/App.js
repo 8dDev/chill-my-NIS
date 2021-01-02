@@ -10,7 +10,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      link: 'https://discord.gg/5x8bjYWmEb'
+      link: '👀'
     }
   }
 
