@@ -1,3 +1,102 @@
+body {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/bg.jpg"); */
+  background-color: rgb(40, 44, 52);
+  background-size: cover;
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: large;
+}
+
+.navbar_dark {
+  display: flex;
+  background-color: rgb(35, 36, 44);
+  height: 70px;
+  width: 100%;
+  padding-left: 290px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+}
+
+.navbar_dark div {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.homezone {
+  padding-top: 70px;
+  padding-left: 25px;
+}
+
+.homezone h1 {
+  text-align: center;
+}
+
+.rules_dark {
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.rules_dark h1 {
+  text-align: center;
+}
+
+.join {
+  font-family: cursive;
+  border: none;
+  outline: none;
+  width: 200px;
+  font-size: 40px;
+  border-radius: 12px;
+  background-color: darkturquoise;
+}
+
+.join:hover {
+  background-color: rgba(0, 206, 209, 0.87);
+}
+
+.join:active {
+  background-color: rgba(0, 206, 209, 0.755);
+}
+
+.button_container {
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.gif {
+  justify-content: center;
+  text-align: center;
+}
+
+.info {
+  border-style: solid;
+  height: 150px;
+  border-width: 0px 0px 30px 0px;
+  border-color: rgb(0, 76, 121);
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 10px;
+}
+
+.info div img {
+  padding-left: 60px;
+}
+
+.avatar {
+  width: 70px;
+  height: 50px;
+}
+
+/*/ _____________________________________ /*/
+
+/*/ No need staff. I'll leave it there /*/
+
 .App {
   text-align: center;
 }
